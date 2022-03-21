@@ -6,7 +6,7 @@ import json
 from bs4 import BeautifulSoup
 import requests as req
 
-engine = create_engine('postgresql+psycopg2://pyuser:123@194.58.123.204/pydb')
+engine = create_engine('postgresql+psycopg2://User:Password@Host/Database')
 
 Session = sessionmaker(bind=engine)
 session = Session()
